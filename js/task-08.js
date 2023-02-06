@@ -13,8 +13,7 @@ const onEnterDataForm = event => {
 
   if (email.value === '' || password.value === '') {
     alert('Please make sure all fields are filled ');
-  }
-  console.log(formData);
+  } else console.log(formData);
   formLogin.reset();
 };
 
